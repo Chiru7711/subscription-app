@@ -22,5 +22,5 @@ A Node.js API for managing user subscriptions with referral system capabilities.
 
 1. Clone repository:
 ```bash
-git clone [your-repo-url]
+git clone [https://github.com/Chiru7711/subscription-app]
 cd subscription-app
