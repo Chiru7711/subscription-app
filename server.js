@@ -8,10 +8,10 @@ await connectDB();
 
 app.use(express.json());
 
-// Routes
-app.use('/',(req,res) =>{
-    res.send('API WORKING');
- });
+//Routes
+// app.use('/',(req,res) =>{
+//     res.send('API WORKING');
+//  });
 app.use('/api/users', userRoutes);
 app.use('/api/subscriptions', subscriptionRoutes);
 
